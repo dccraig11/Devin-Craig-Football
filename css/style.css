@@ -1,72 +1,81 @@
+/* ---------- GLOBAL STYLES ---------- */
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
-    background: #f7f7f7;
-    color: #111;
+    margin: 0;
+    padding: 0;
+    background: #fafafa;
+    color: #222;
+}
+
+header {
+    background: #f2f2f2;       /* light gray */
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
 }
 
 nav {
-    background: #c8102e;
-    color: white;
-    padding: 12px 0;
-}
-
-.nav-container {
-    max-width: 1100px;
+    width: 90%;
     margin: auto;
     display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 0 20px;
+    justify-content: center;
+    gap: 30px;
 }
 
-.nav-links a {
-    color: white;
-    margin-left: 15px;
+nav a {
     text-decoration: none;
+    color: #333;
     font-weight: bold;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: 0.3s;
 }
 
-.hero {
-    background: #111;
-    color: white;
-    padding: 60px 20px;
-    text-align: center;
+nav a:hover {
+    background: #e6e6e6;
 }
 
+/* ---------- MAIN CONTENT ---------- */
 .container {
-    max-width: 1100px;
+    width: 90%;
+    max-width: 800px;
     margin: auto;
-    padding: 20px;
-    background: white;
-    margin-top: 25px;
-    border-radius: 8px;
+    padding: 25px 0;
 }
 
-.profile-card {
-    display: flex;
-    gap: 20px;
+h1 {
+    text-align: center;
+    color: #111;
+    margin-bottom: 20px;
 }
 
-.profile-img {
-    width: 250px;
+/* ---------- IMAGES ---------- */
+.page-image {
+    display: block;
+    width: 100%;
+    max-width: 400px;
+    margin: 20px auto;
+    border-radius: 12px;
 }
 
-.stats-table {
+/* ---------- LISTS ---------- */
+ul {
+    line-height: 1.7;
+}
+
+/* ---------- TABLE ---------- */
+table {
     width: 100%;
     border-collapse: collapse;
+    margin-top: 20px;
+    background: white;
 }
 
-.stats-table th, .stats-table td {
-    border: 1px solid #ccc;
+th, td {
+    border: 1px solid #ddd;
     padding: 10px;
 }
 
-.stats-table th {
-    background: #c8102e;
-    color: white;
+th {
+    background: #f0f0f0;
 }
 
-.film-list li, .accomplishments-list li {
-    margin-bottom: 12px;
-}
