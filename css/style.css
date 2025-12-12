@@ -1,0 +1,72 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f7f7f7;
+    color: #111;
+}
+
+nav {
+    background: #c8102e;
+    color: white;
+    padding: 12px 0;
+}
+
+.nav-container {
+    max-width: 1100px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 20px;
+}
+
+.nav-links a {
+    color: white;
+    margin-left: 15px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.hero {
+    background: #111;
+    color: white;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.container {
+    max-width: 1100px;
+    margin: auto;
+    padding: 20px;
+    background: white;
+    margin-top: 25px;
+    border-radius: 8px;
+}
+
+.profile-card {
+    display: flex;
+    gap: 20px;
+}
+
+.profile-img {
+    width: 250px;
+}
+
+.stats-table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.stats-table th, .stats-table td {
+    border: 1px solid #ccc;
+    padding: 10px;
+}
+
+.stats-table th {
+    background: #c8102e;
+    color: white;
+}
+
+.film-list li, .accomplishments-list li {
+    margin-bottom: 12px;
+}
